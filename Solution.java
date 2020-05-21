@@ -13,7 +13,7 @@ class solution
        res = operation(val);
        System.out.println(res);
     }
-    public static TreeMap<String,Integer> operation(TreeMap<String,Integer> val) {
+    public static TreeMap<String,Integer> operation(TreeMap<String,Integer> val) {     // Required function
         List<LocalDate> totalDates = new ArrayList<>();
         ArrayList key = new ArrayList<Integer>();
         String s[]=new String[val.size()];
